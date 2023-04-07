@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nlp-extractor-simple"
+version = "0.1.0"
+description = ""
+authors = ["Steve Dondley <s@dondley.com>"]
+readme = "README.md"
+packages = [{include = "nlp_extractor_simple"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
